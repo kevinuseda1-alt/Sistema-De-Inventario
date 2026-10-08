@@ -1,0 +1,25 @@
+﻿REPARACION DE LOGIN, PROVEEDORES E INVENTARIO
+
+1. Cierra Bike Store.
+2. Abre SQL Server Management Studio y conecta a la misma instancia que figura
+   en CapaPresentacion/App.config, propiedad Data Source.
+3. Respalda tu base Bike_Store.
+4. Abre REPARAR_BIKE_STORE.sql en Nueva consulta y ejecuta TODO el archivo.
+5. Debe aparecer ACTUALIZACION COMPLETADA y el servidor/base utilizados.
+6. Abre PedidosApp.sln y ejecuta nuevamente el programa.
+
+No hace falta borrar ni crear de nuevo tu base existente. Conserva registros,
+usuarios, contraseñas actuales e identificadores. Puede ejecutarse nuevamente.
+Completa password_hash/password_salt, proveedores, relaciones de proveedores,
+stock mínimo, vista de inventario y procedimientos compatibles con la aplicación.
+La transacción revierte esta actualización si falla.
+
+Para otra PC SIN base: usa SQL/INSTALAR_TODO_NUEVA_PC.sql o restaura tu respaldo
+si también quieres tus registros actuales. Ajusta Data Source en App.config.
+No ejecutes los archivos de referencia que contienen DROP DATABASE.
+
+El código C# y el diseño de la versión que ya recibiste se conservan.
+Los precios siguen con su mismo valor y formato C$.
+
+Verificación: revisados esquema frente a consultas C#, XML y contenido ZIP.
+No ejecutado contra tu SQL Server ni compilado en Windows desde este entorno.

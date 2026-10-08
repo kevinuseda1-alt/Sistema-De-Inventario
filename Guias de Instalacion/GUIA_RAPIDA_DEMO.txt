@@ -1,0 +1,8 @@
+DEMO INVENTARIO BIKE STORE
+1. Login josue / 123456 (cambiar la contraseña después).
+2. Crear categoría y producto con precio en C$.
+3. Crear proveedor y vincularlo al producto.
+4. En Inventario registrar entrada, salida e historial.
+5. Cambiar el mínimo y ver alerta en Dashboard.
+6. En SSMS ejecutar SQL/03_Consultas_Exposicion.sql.
+Ver LEEME_INSTALACION_Y_GUIA.md antes de mover el proyecto a otra PC.
